@@ -10,7 +10,11 @@
       href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+    <style>
+      .spacebetween20px{
+        width: 20px;
+      }
+    </style>
     <title>Sahil Gidwani</title>
   </head>
   <body>
@@ -28,11 +32,11 @@
           </label>
           <div class="collapsible-body">
             <ul class="inline">
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Bio</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="project">Projects</a></li>
+              <li><a href="#bio">Bio</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#edu">Education</a></li>
+              <li><a href="#contact-form">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -56,32 +60,140 @@
         <div class="sm-4 col">
         <img src="images/profile.png" alt="Portfolio" style="height: 400px;width:500px;" class="float-right">
         </div>
+        </div>
 
-        <div class="" style="text-align: center;">
-          <h2>BIO</h2>
+        <div id="bio" class="paper container" style="text-align: center;">
+          <h2 >BIO</h2>
           <p><b><u>Sahil Gidwani</u></b> is a dedicated software developer with over 2 years of experience in full-stack development, cloud engineering, and big data analytics. He has expertise in building scalable applications using modern technologies and frameworks. With academic qualifications including an MSc in Big Data Analytics and AI from Atlantic Technological University and a BBA in Computer Application from Brihan Maharashtra College of Commerce, Sahil brings a versatile skill set to projects across various industries. He is passionate about solving complex challenges and enhancing system performance.</p>
         </div>
         
-        <div class="" style="text-align: center;">
+        <div class="paper container" style="text-align: center;" id="skill">
           <div class="row">
             <div class="col-12 col"><h2>SKILLS</h2></div>
+            <button><img src="images/react-brands-solid.svg"width="60px" class="no-border"> React.JS</button><span class="spacebetween20px"></span>
+            <button><img src="images/redis-svgrepo-com.svg" width="60px" class="no-border">Redis</button><span class="spacebetween20px"></span>
+            <button><img src="images/redux-logo-svgrepo-com.svg" width="60px" class="no-border">Redux</button><span class="spacebetween20px"></span>
+            <button><img src="images/docker-svgrepo-com.svg" width="60px" class="no-border">Docker</button><span class="spacebetween20px"></span>
+            <button><img src="images/kubernetes-svgrepo-com.svg" width="60px" class="no-border">Kubernetes</button><span class="spacebetween20px"></span>
+            <button><img src="images/google-cloud-svgrepo-com.svg" width="60px" class="no-border">Google Cloud</button><span class="spacebetween20px"></span>
+            <button><img src="images/html-5-svgrepo-com.svg" width="60px" class="no-border">Html</button><span class="spacebetween20px"></span>
+            <button><img src="images/css-svgrepo-com.svg" width="60px" class="no-border">CSS</button><span class="spacebetween20px"></span>
+            <button><img src="images/javascript-svgrepo-com.svg" width="60px" class="no-border">JavaScript</button><span class="spacebetween20px"></span>
+            <button><img src="images/bootstrap-svgrepo-com.svg" width="60px" class="no-border">BootStrap</button><span class="spacebetween20px"></span>
+            <button><img src="images/tailwind-svgrepo-com.svg" width="60px" class="no-border">Tailwind</button><span class="spacebetween20px"></span>
+            <button><img src="images/wordpress-color-svgrepo-com.svg" width="60px" class="no-border">Wordpress</button><span class="spacebetween20px"></span>
+            <button><img src="images/brand-elementor-svgrepo-com.svg" width="60px" class="no-border">Elementor</button><span class="spacebetween20px"></span>
+            <button><img src="images/node-js-svgrepo-com.svg" width="60px" class="no-border">Node.js</button><span class="spacebetween20px"></span>
+            <button><img src="images/next-dot-js-svgrepo-com.svg" width="60px" class="no-border">Next.js</button><span class="spacebetween20px"></span>
+            <button><img src="images/mysql-svgrepo-com.svg" width="60px" class="no-border">MySQL</button><span class="spacebetween20px"></span>
+            <button><img src="images/mongo-svgrepo-com.svg" width="60px" class="no-border">MongoDB</button><span class="spacebetween20px"></span>
+            <button><img src="images/git-svgrepo-com.svg" width="60px" class="no-border">Git</button><span class="spacebetween20px"></span>
+            <button><img src="images/github-142-svgrepo-com.svg" width="60px" class="no-border">Github</button><span class="spacebetween20px"></span>
+            <button><img src="images/chatbot-svgrepo-com.svg" width="60px" class="no-border">ChatBot</button><span class="spacebetween20px"></span>
+            <button><img src="images/nlp-neurolinguistic-programation-svgrepo-com.svg" width="60px" class="no-border">NLP</button><span class="spacebetween20px"></span>
+            <button><img src="images/python-svgrepo-com.svg" width="60px" class="no-border">Python</button><span class="spacebetween20px"></span>
+            <button><img src="images/java-svgrepo-com.svg" width="60px" class="no-border">Java</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-1 col">
-              <img src="images/react-brands-solid.svg" width="100%" class="no-border"><p>React.js</p>
+
+          <div class="paper container" id="edu">
+
+          <h2>Education</h2>
+          <br>
+
+          <div class="card sm-6 col" style="width: 20rem;">
+            <div class="card-header">Atlantic Technological University, Letterkenny</div>
+            <div class="card-body">
+              <h4 class="card-title">MSc in Big Data Analytics and AI</h4>
+              <h5 class="card-subtitle">Sep 2022 – Sep 2023</h5>
+              <p class="card-text">
+                Dissertation: NLP Chatbot for Cafes/Restaurants<br>
+                Projects: 
+                <ul>
+                  <li>R2D2 Robot (Python)</li>
+                  <li>Multiple Linear Regression Model for Weight Estimation from Fish Measurements</li>
+                </ul>
+              </p>
+              
             </div>
-            <div class="col-1 col">
-              <img src="images/redux-logo-svgrepo-com.svg" width="100%" class="no-border"><p>Redux</p>
+            <div class="card-footer"><i class="bi bi-geo-fill"></i> Ireland</div>
+          </div>
+          <br>   
+
+          <div class="card sm-6 col" style="width: 20rem;">
+            <div class="card-header">Brihan Maharashtra College of Commerce, Pune, India</div>
+            <div class="card-body">
+              <h4 class="card-title">BBA in Computer Application</h4>
+              <h5 class="card-subtitle">Jul 2018 – Jul 2021</h5>
+              <p class="card-text">
+                <ul>
+                  <li>Build E-Commerce website using front-end languages HTML, CSS, JS, BootStrap and Back-End with MySQL</li>
+                </ul>
+              </p>
+              
             </div>
-            <div class="col-1 col">
-              <img src="images/next-dot-js-svgrepo-com.svg" width="100%" class="no-border"><p>Next.js</p>
-            </div>
-            <div class="col-2 col"></div>
-            <div class="col-2 col"></div>
-            <div class="col-2 col"></div>
+            <div class="card-footer"><i class="bi bi-geo-fill"></i> Maharashtra</div>
+          </div>
           </div>
           
-        </div>
+          <!--Page End-->
+          <div class="row paper" id="contact-form">
+          <div class="card col-12 col" style="width: 20rem;align-items: center;">
+            <div class="card-header">Contact Me</div>
+            <div class="card-body">
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="card-footer"><b>📮</b>One step closer to connecting with me!</div>
+          </div>
+          
+          <!-- Include EmailJS script -->
+          <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            (function() {
+              emailjs.init("QYYYoRWe8aujKN1Fy"); // Replace with your EmailJS Private Key or User ID
+            })();
+          
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              
+              // Send the form data via EmailJS
+              emailjs.sendForm('service_hmepice', 'template_2f04awj', this)
+                .then(function() {
+                  alert('Message sent successfully!');
+                }, function(error) {
+                  alert('Failed to send the message, please try again later.');
+                });
+            });
+          </script>
+          </div>
+
+          <div class="" style="align-content: center;text-align: center;">
+            <h5>Contact Card</h5>
+            <p><u>Email: </u><a href="mailto: sahilgidwani55@gmail.com"> sahilgidwani55@gmail.com</a></p>
+            <p><u>Mobile No.:</u> <a href="tel:+0879565923"> +353 879565923</a></p>
+            <p><u>Adress:</u> Dublin 04, Grand Canal</p>
+          </div>
+          
+        
+
+
+      <marquee><footer style="text-align: center;"><b>🖤</b>Build by Sahil Gidwani</footer></marquee>
+
         <script src="https://kit.fontawesome.com/e2b0f165cc.js" crossorigin="anonymous"></script>
         
   </body>
