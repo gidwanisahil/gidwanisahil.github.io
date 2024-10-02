@@ -1,0 +1,1 @@
+This project is completely react based . The topic of this project is movie search with omdb Api
